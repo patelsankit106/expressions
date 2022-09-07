@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <title>TASK</title>
+
+    <script src="task2.js"></script>
+    <style>
+        td {
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+    <table align="center" border="5" rules="" cellspacing="13px" cellpadding="5px">
+
+        <th>SELECT METHOD</th>
+        <th>PRIME</th>
+        <th>ADDINGDIGIT</th>
+        <th>ARMSTRONG</th>
+        <th>FACTORIAL</th>
+        <th>REVERSE</th>
+        <th>PALINDROME</th>
+        <tr align="center">
+            <td><b> No argument no return</b> </td>
+            <td> <input type="radio" id="p1" name="radio1"></td>
+            <td> <input type="radio" id="ad1" name="radio1"></td>
+            <td> <input type="radio" id="ar1" name="radio1"></td>
+            <td> <input type="radio" id="f1" name="radio1"></td>
+            <td> <input type="radio" id="r1" name="radio1"></td>
+            <td> <input type="radio" id="pa1" name="radio1"></td>
+
+        </tr>
+
+        <tr align="center">
+            <td> <b> with argument no return</b> </td>
+            <td> <input type="radio" id="p2" name="radio1"></td>
+            <td> <input type="radio" id="ad2" name="radio1"></td>
+            <td> <input type="radio" id="ar2" name="radio1"></td>
+            <td> <input type="radio" id="f2" name="radio1"></td>
+            <td> <input type="radio" id="r2" name="radio1"></td>
+            <td> <input type="radio" id="pa2" name="radio1"></td>
+        </tr>
+
+        <tr align="center">
+            <td><b> with argument with return</b> </td>
+            <td> <input type="radio" id="p3" name="radio1"> </td>
+            <td> <input type="radio" id="ad3" name="radio1"> </td>
+            <td> <input type="radio" id="ar3" name="radio1"> </td>
+            <td> <input type="radio" id="f3" name="radio1"> </td>
+            <td> <input type="radio" id="r3" name="radio1"> </td>
+            <td> <input type="radio" id="pa3" name="radio1"> </td>
+        </tr>
+
+        <tr align="center">
+            <td> <b> No argument with return</b> </td>
+            <td> <input type="radio" id="p4" name="radio1"></td>
+            <td> <input type="radio" id="ad4" name="radio1"></td>
+            <td> <input type="radio" id="ar4" name="radio1"></td>
+            <td> <input type="radio" id="f4" name="radio1"></td>
+            <td> <input type="radio" id="r4" name="radio1"></td>
+            <td> <input type="radio" id="pa4" name="radio1"></td>
+        </tr>
+
+        <tr align="center">
+            <td><b> function expression</b> </td>
+            <td> <input type="radio" id="p5" name="radio1"></td>
+            <td> <input type="radio" id="ad5" name="radio1"></td>
+            <td> <input type="radio" id="ar5" name="radio1"></td>
+            <td> <input type="radio" id="f5" name="radio1"></td>
+            <td> <input type="radio" id="r5" name="radio1"></td>
+            <td> <input type="radio" id="pa5" name="radio1"></td>
+
+        </tr>
+
+        <tr align="center">
+            <td><b> call back function</b> </td>
+            <td> <input type="radio" id="p6" name="radio1"></td>
+            <td> <input type="radio" id="ad66" name="radio1"></td>
+            <!-- <td> <input type="radio" id="ad6" name="radio1"></td> -->
+            <td> <input type="radio" id="ar6" name="radio1"></td>
+            <td> <input type="radio" id="f6" name="radio1"></td>
+            <td> <input type="radio" id="r6" name="radio1"></td>
+            <td> <input type="radio" id="pa6" name="radio1"></td>
+
+
+
+
+        </tr>
+
+        <tr align="center">
+            <td><b> arrow function</b> </td>
+            <td> <input type="radio" id="p7" name="radio1"></td>
+            <td> <input type="radio" id="ad7" name="radio1"></td>
+            <td> <input type="radio" id="ar7" name="radio1"></td>
+            <td> <input type="radio" id="f7" name="radio1"></td>
+            <td> <input type="radio" id="r7" name="radio1"></td>
+            <td> <input type="radio" id="pa7" name="radio1"></td>
+
+        </tr>
+
+        <tr align="center">
+            <td><b> promise function</b> </td>
+            <td> <input type="radio" id="p8" name="radio1"></td>
+            <td> <input type="radio" id="ad8" name="radio1"></td>
+            <td> <input type="radio" id="ar8" name="radio1"></td>
+            <td> <input type="radio" id="f8" name="radio1"></td>
+            <td> <input type="radio" id="r8" name="radio1"></td>
+            <td> <input type="radio" id="pa8" name="radio1"></td>
+
+        </tr>
+
+
+
+
+
+
+    </table>
+
+    <br><br>
+
+    <label for=""><b> Enter a number
+        </b> <input type="text" id="t1" style="height:30px;">
+
+    </label>
+    <label for=""><b> Result</b>&nbsp;&nbsp;<input type="text" id="t2" size="30" style="height:30px;"></label>
+    &nbsp;&nbsp;&nbsp;<span id="reason" style="color: blue;"></span>
+    <br><br>
+
+    <button style="height: 30px; width: 90px; margin-left: 10px;"
+        onclick="prime1(),prime2(),prime3(),prime4(),prime5(),prime6(),prime7(),prime8(),
+        AddDigit1(),AddDigit2(),AddDigit3(),AddDigit4(),AddDigit5(),AddDigit6(),AddDigit7(),AddDigit8();
+        Armstrong1(),Armstrong2(),Armstrong3(),Armstrong4(),Armstrong5(),Armstrong6(),Armstrong7(),Armstrong8(),
+        factorial1(),factorial2(),factorial3(),factorial4(),factorial5(),factorial6(),factorial7(),factorial8(),
+        reverse1(),reverse2(),reverse3(),reverse4(),reverse5(),reverse6(),reverse7(),reverse8(),
+        palindrome1(),palindrome2(),palindrome3(),palindrome4(),palindrome5(),palindrome6(),palindrome7(),palindrome8()">SUBMIT</button>
+    <!-- <input type="button" value=" submit " onclick="prime1(),prime2(7),prime3(12),prime4(),AddDigit1(),AddDigit2(64),AddDigit3(15),AddDigit4(),Armstrong1(),Armstrong2(153),Armstrong3(1153),Armstrong4(),factorial1(),factorial2(6),factorial3(5),factorial4(),reverse1(),reverse2(987654321),reverse3(123456),reverse4(),palindrome1(),palindrome2(432),palindrome3(121),palindrome4()"> -->
+
+</body>
+
+</html>
